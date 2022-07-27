@@ -84,7 +84,7 @@ Start the node
 
 `./target/release/neard --home ~/.near run`
 
-![Captura de Pantalla 2022-07-27 a la(s) 12.01.58.png](Wiki%2075be2226dfcf4cdd95b95f063c13a9f6/Captura_de_Pantalla_2022-07-27_a_la(s)_12.01.58.png)
+![Captura de Pantalla 2022-07-27 a la(s) 12.01.58.png](Captura_de_Pantalla_2022-07-27_a_la(s)_12.01.58.png)
 
 ## Create Validator
 
