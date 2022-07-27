@@ -92,11 +92,11 @@ Link your wallet to your created account:
 
 `near login`
 
-![Captura de Pantalla 2022-07-27 a la(s) 12.11.21.png](Wiki%2075be2226dfcf4cdd95b95f063c13a9f6/Captura_de_Pantalla_2022-07-27_a_la(s)_12.11.21.png)
+![Captura de Pantalla 2022-07-27 a la(s) 12.11.21.png](Captura_de_Pantalla_2022-07-27_a_la(s)_12.11.21.png)
 
 You must then go to the link provided in your console and grant access to your account.
 
-![Captura de Pantalla 2022-07-27 a la(s) 12.13.14.png](Wiki%2075be2226dfcf4cdd95b95f063c13a9f6/Captura_de_Pantalla_2022-07-27_a_la(s)_12.13.14.png)
+![Captura de Pantalla 2022-07-27 a la(s) 12.13.14.png](Captura_de_Pantalla_2022-07-27_a_la(s)_12.13.14.png)
 
 After this, you will need to create the validator key.
 
@@ -118,7 +118,7 @@ File must follow this pattern, make sure to change `private_key` for `secret_key
 
 Stop and start your validator node again, you should see the “validator” flag in the logs:
 
-![Captura de Pantalla 2022-07-27 a la(s) 12.25.46.png](Wiki%2075be2226dfcf4cdd95b95f063c13a9f6/Captura_de_Pantalla_2022-07-27_a_la(s)_12.25.46.png)
+![Captura de Pantalla 2022-07-27 a la(s) 12.25.46.png](Captura_de_Pantalla_2022-07-27_a_la(s)_12.25.46.png)
 
 # Register Staking Pool
 
