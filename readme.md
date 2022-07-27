@@ -8,15 +8,15 @@ Shardnet: [wallet.shardnet.near.org](https://wallet.shardnet.near.org)
 
 Mainnet: [wallet.near.org](https://wallet.near.org)
 
-# Near-CLI and Near Core installing and Build
+# Installation
 
-1. First we will upgrade the OS and dependencies
+First we will upgrade the OS and dependencies
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-1. Install developer tools, Node.js, and npm
+Install developer tools, Node.js, and npm
 
 `curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -`  
 
