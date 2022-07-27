@@ -8,6 +8,23 @@ Shardnet: [wallet.shardnet.near.org](https://wallet.shardnet.near.org)
 
 Mainnet: [wallet.near.org](https://wallet.near.org)
 
+# Deploy Server
+
+For this guide we have used an Azure VM to install the Near node, we have used their cli but it could also be deployed trough their website.
+
+![Azure_VM](azure_vm.png)
+
+The important thing is that the machine meets the minimum requirements for Near to run and sufficient disk to store the blockchain. For shardnet chunk producers, the required hardware is as following:
+
+| Hardware       | Chunk-Only Producer  Specifications                                   |
+| -------------- | ---------------------------------------------------------------       |
+| CPU            | 4-Core CPU with AVX support                                           |
+| RAM            | 8GB DDR4                                                              |
+| Storage        | 500GB SSD                                                             |
+
+
+
+
 # Installation
 
 First we will upgrade the OS and dependencies
