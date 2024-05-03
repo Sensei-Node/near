@@ -279,3 +279,9 @@ for i in res['result']['prev_epoch_kickout']:
 # Other Tools
 
 - Ping script that needs to be run every epoch to update delegartors balance: [https://gist.github.com/PixelNoob/d9ad19ffb22d246e25955c1ac3065076](https://gist.github.com/PixelNoob/d9ad19ffb22d246e25955c1ac3065076)
+
+# Contributing
+
+- Contributions are welcome. Feel free to suggest improvements!
+
+Made with ❤️ by [Sensei Team](https://github.com/orgs/Sensei-Node/people)
