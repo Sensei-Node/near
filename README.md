@@ -10,7 +10,7 @@
 
 For this guide we have used an `Azure VM` to install the `Near node`, we have used their CLI but it could also be deployed trough their website.
 
-![Azure_VM](azure_vm.png)
+![Azure_VM](azure-vm.png)
 
 The important thing is that the machine meets the minimum requirements for `Near` to run and sufficient disk to store the blockchain. For shardnet chunk producers, the required hardware is as following:
 
