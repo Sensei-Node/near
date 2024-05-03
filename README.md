@@ -1,18 +1,18 @@
 # Introduction
 
-- Install Near core and Near-Cli
-- Before completing this guide, your must first create a wallet:
+- Install `Near Core` and `Near-CLI`
+- Before completing this guide, your `MUST` first create a Wallet:
 
 - Shardnet: [wallet.shardnet.near.org](https://wallet.shardnet.near.org)
 - Mainnet: [wallet.near.org](https://wallet.near.org)
 
 # Deploy Server
 
-For this guide we have used an `Azure VM` to install the `Near node`, we have used their CLI but it could also be deployed trough their website.
+- For this guide we have used an `Azure VM` to install the `Near node`, we have used their CLI but it could also be deployed trough their website.
 
 ![Azure_VM](azure-vm.png)
 
-The important thing is that the machine meets the minimum requirements for `Near` to run and sufficient disk to store the blockchain. For shardnet chunk producers, the required hardware is as following:
+- The important thing is that the machine meets the minimum requirements for `Near` to run and sufficient disk to store the blockchain. For shardnet chunk producers, the required hardware is as following:
 
 | Hardware       | Chunk-Only Producer  Specifications                                   |
 | -------------- | ---------------------------------------------------------------       |
@@ -28,7 +28,7 @@ The important thing is that the machine meets the minimum requirements for `Near
 sudo apt update && sudo apt upgrade -y
 ```
 
-Install developer tools, `Node.js` and `npm`!
+- Install developer tools, `Node.js` and `npm`:
 
 ```shell
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
@@ -70,7 +70,7 @@ sudo apt install -y git binutils-dev libcurl4-openssl-dev zlib1g-dev libdw-dev l
 sudo apt install python3-pip
 ```
 
-Install Rust and Cargo:
+- Install Rust and Cargo:
 
 ```shell
 curl --proto '=https' --tlsv1.2 -sSf [https://sh.rustup.rs](https://sh.rustup.rs/) | sh
@@ -238,7 +238,7 @@ curl -s -d '{"jsonrpc": "2.0", "method": "validators", "id": "dontcare", "params
 
 ### Monitor Your Validator
 
-The following script is the base for a monitor tool that checks your validator status. Make sure to change the staking_pool variable to your own pool name.
+- The following script is the base for a monitor tool that checks your validator status. Make sure to change the staking_pool variable to your own pool name.
 
 ```python
 import requests as r
@@ -278,4 +278,4 @@ for i in res['result']['prev_epoch_kickout']:
 
 # Other Tools
 
-Ping script that needs to be run every epoch to update delegartors balance: [https://gist.github.com/PixelNoob/d9ad19ffb22d246e25955c1ac3065076](https://gist.github.com/PixelNoob/d9ad19ffb22d246e25955c1ac3065076)
+- Ping script that needs to be run every epoch to update delegartors balance: [https://gist.github.com/PixelNoob/d9ad19ffb22d246e25955c1ac3065076](https://gist.github.com/PixelNoob/d9ad19ffb22d246e25955c1ac3065076)
